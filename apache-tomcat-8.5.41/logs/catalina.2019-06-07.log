@@ -1,0 +1,378 @@
+07-Jun-2019 22:57:28.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.41
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2019 09:17:16 UTC
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.41.0
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2019 22:57:28.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 22:57:28.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 22:57:28.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/conf/logging.properties
+07-Jun-2019 22:57:28.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2019 22:57:28.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2019 22:57:28.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2019 22:57:28.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jun-2019 22:57:28.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2019 22:57:28.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 22:57:28.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 22:57:28.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/temp
+07-Jun-2019 22:57:28.886 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/alexandrmyagkiy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Jun-2019 22:57:29.025 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 22:57:29.046 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 22:57:29.055 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 22:57:29.056 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 22:57:29.056 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 484 ms
+07-Jun-2019 22:57:29.085 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2019 22:57:29.086 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.41
+07-Jun-2019 22:57:29.094 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs]
+07-Jun-2019 22:57:29.296 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 22:57:29.319 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs] has finished in [224] ms
+07-Jun-2019 22:57:29.319 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager]
+07-Jun-2019 22:57:29.391 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 22:57:29.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager] has finished in [75] ms
+07-Jun-2019 22:57:29.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples]
+07-Jun-2019 22:57:29.542 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 22:57:29.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples] has finished in [157] ms
+07-Jun-2019 22:57:29.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT]
+07-Jun-2019 22:57:29.592 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 22:57:29.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT] has finished in [43] ms
+07-Jun-2019 22:57:29.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager]
+07-Jun-2019 22:57:29.644 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 22:57:29.645 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager] has finished in [50] ms
+07-Jun-2019 22:57:29.647 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 22:57:29.653 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 22:57:29.654 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 598 ms
+07-Jun-2019 22:58:50.086 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war]
+07-Jun-2019 22:58:50.243 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 22:58:50.332 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war] has finished in [245] ms
+07-Jun-2019 23:04:50.542 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:04:50.653 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:04:50.659 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:04:50.660 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:04:50.669 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [126] ms
+07-Jun-2019 23:07:22.172 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FICT]] after stop() had already been called. The second call will be ignored.
+07-Jun-2019 23:07:22.678 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FICT]
+07-Jun-2019 23:07:33.751 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:07:33.858 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:07:33.863 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:07:33.863 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:07:33.865 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [114] ms
+07-Jun-2019 23:10:35.402 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MongoDBWebapp] has started
+07-Jun-2019 23:10:35.526 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:10:35.592 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MongoDBWebapp] is completed
+07-Jun-2019 23:10:51.844 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:10:51.847 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:10:51.848 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:17:09.803 INFO [http-nio-8080-exec-16] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FICT]] after stop() had already been called. The second call will be ignored.
+07-Jun-2019 23:17:10.308 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FICT]
+07-Jun-2019 23:17:17.512 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:17:17.610 INFO [http-nio-8080-exec-17] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:17:17.631 SEVERE [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:17:17.632 SEVERE [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:17:17.634 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [123] ms
+07-Jun-2019 23:17:51.831 INFO [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:17:51.857 SEVERE [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:17:51.857 SEVERE [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:19:08.037 INFO [http-nio-8080-exec-24] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FICT]] after stop() had already been called. The second call will be ignored.
+07-Jun-2019 23:19:08.543 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FICT]
+07-Jun-2019 23:19:22.398 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:19:22.499 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:19:22.513 SEVERE [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:19:22.514 SEVERE [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:19:22.515 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [117] ms
+07-Jun-2019 23:21:45.906 INFO [http-nio-8080-exec-24] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FICT]] after stop() had already been called. The second call will be ignored.
+07-Jun-2019 23:21:46.411 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FICT]
+07-Jun-2019 23:21:50.873 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:21:50.971 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:21:50.984 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:21:50.985 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:21:50.986 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [114] ms
+07-Jun-2019 23:23:23.838 INFO [http-nio-8080-exec-31] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:23:23.850 SEVERE [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:23:23.851 SEVERE [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:24:42.971 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:24:42.979 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:24:42.987 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2019 23:24:43.007 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:24:43.009 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:24:43.010 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:24:43.011 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:29:39.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.41
+07-Jun-2019 23:29:39.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2019 09:17:16 UTC
+07-Jun-2019 23:29:39.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.41.0
+07-Jun-2019 23:29:39.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Jun-2019 23:29:39.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+07-Jun-2019 23:29:39.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Jun-2019 23:29:39.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+07-Jun-2019 23:29:39.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+07-Jun-2019 23:29:39.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2019 23:29:39.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:29:39.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/conf/logging.properties
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/temp
+07-Jun-2019 23:29:39.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/alexandrmyagkiy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Jun-2019 23:29:39.469 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:29:39.483 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 23:29:39.491 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:29:39.492 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 23:29:39.492 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 330 ms
+07-Jun-2019 23:29:39.512 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2019 23:29:39.512 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.41
+07-Jun-2019 23:29:39.534 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:29:39.863 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:29:39.906 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:29:39.912 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:29:39.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [383] ms
+07-Jun-2019 23:29:39.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war]
+07-Jun-2019 23:29:40.117 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:29:40.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war] has finished in [340] ms
+07-Jun-2019 23:29:40.259 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs]
+07-Jun-2019 23:29:40.303 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:29:40.304 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs] has finished in [45] ms
+07-Jun-2019 23:29:40.304 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager]
+07-Jun-2019 23:29:40.352 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:29:40.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager] has finished in [54] ms
+07-Jun-2019 23:29:40.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples]
+07-Jun-2019 23:29:40.470 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:29:40.476 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples] has finished in [117] ms
+07-Jun-2019 23:29:40.477 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT]
+07-Jun-2019 23:29:40.515 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:29:40.516 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT] has finished in [39] ms
+07-Jun-2019 23:29:40.516 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager]
+07-Jun-2019 23:29:40.560 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:29:40.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager] has finished in [45] ms
+07-Jun-2019 23:29:40.563 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:29:40.569 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:29:40.570 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1078 ms
+07-Jun-2019 23:29:47.273 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:29:47.282 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:29:47.289 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2019 23:29:47.307 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:29:47.312 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:29:47.313 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:29:47.313 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:41:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.41
+07-Jun-2019 23:41:12.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2019 09:17:16 UTC
+07-Jun-2019 23:41:12.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.41.0
+07-Jun-2019 23:41:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Jun-2019 23:41:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+07-Jun-2019 23:41:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Jun-2019 23:41:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+07-Jun-2019 23:41:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+07-Jun-2019 23:41:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2019 23:41:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:41:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:41:12.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/conf/logging.properties
+07-Jun-2019 23:41:12.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2019 23:41:12.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2019 23:41:12.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2019 23:41:12.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jun-2019 23:41:12.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=localhost:8000,server=y,suspend=n
+07-Jun-2019 23:41:12.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2019 23:41:12.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:41:12.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:41:12.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/temp
+07-Jun-2019 23:41:12.450 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/alexandrmyagkiy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Jun-2019 23:41:12.528 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:41:12.541 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 23:41:12.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:41:12.549 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 23:41:12.550 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 342 ms
+07-Jun-2019 23:41:12.570 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2019 23:41:12.570 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.41
+07-Jun-2019 23:41:12.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:41:12.909 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:41:12.991 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:41:12.997 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:41:13.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [417] ms
+07-Jun-2019 23:41:13.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war]
+07-Jun-2019 23:41:13.169 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:41:13.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war] has finished in [287] ms
+07-Jun-2019 23:41:13.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs]
+07-Jun-2019 23:41:13.323 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:41:13.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs] has finished in [33] ms
+07-Jun-2019 23:41:13.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager]
+07-Jun-2019 23:41:13.359 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:41:13.365 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager] has finished in [41] ms
+07-Jun-2019 23:41:13.365 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples]
+07-Jun-2019 23:41:13.457 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:41:13.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples] has finished in [99] ms
+07-Jun-2019 23:41:13.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT]
+07-Jun-2019 23:41:13.492 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:41:13.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT] has finished in [28] ms
+07-Jun-2019 23:41:13.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager]
+07-Jun-2019 23:41:13.521 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:41:13.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager] has finished in [29] ms
+07-Jun-2019 23:41:13.524 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:41:13.530 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:41:13.532 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 982 ms
+07-Jun-2019 23:43:47.494 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jun-2019 23:43:47.494 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:43:47.502 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:43:47.507 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2019 23:43:47.525 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:43:47.526 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:43:47.527 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:43:47.527 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:44:02.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.41
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2019 09:17:16 UTC
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.41.0
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:44:02.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:44:02.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/conf/logging.properties
+07-Jun-2019 23:44:02.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2019 23:44:02.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2019 23:44:02.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2019 23:44:02.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jun-2019 23:44:02.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=localhost:8000,server=y,suspend=n
+07-Jun-2019 23:44:02.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2019 23:44:02.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:44:02.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:44:02.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/temp
+07-Jun-2019 23:44:02.886 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/alexandrmyagkiy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Jun-2019 23:44:02.959 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:44:02.971 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 23:44:02.980 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:44:02.981 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 23:44:02.981 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 338 ms
+07-Jun-2019 23:44:03.003 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2019 23:44:03.004 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.41
+07-Jun-2019 23:44:03.017 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:44:03.377 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:44:03.446 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:44:03.452 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:44:03.458 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [441] ms
+07-Jun-2019 23:44:03.458 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war]
+07-Jun-2019 23:44:03.637 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:44:03.719 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war] has finished in [261] ms
+07-Jun-2019 23:44:03.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs]
+07-Jun-2019 23:44:03.757 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:44:03.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs] has finished in [40] ms
+07-Jun-2019 23:44:03.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager]
+07-Jun-2019 23:44:03.798 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:44:03.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager] has finished in [90] ms
+07-Jun-2019 23:44:03.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples]
+07-Jun-2019 23:44:03.951 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:44:03.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples] has finished in [110] ms
+07-Jun-2019 23:44:03.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT]
+07-Jun-2019 23:44:04.008 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:44:04.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT] has finished in [49] ms
+07-Jun-2019 23:44:04.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager]
+07-Jun-2019 23:44:04.059 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:44:04.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager] has finished in [50] ms
+07-Jun-2019 23:44:04.063 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:44:04.071 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:44:04.072 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1091 ms
+07-Jun-2019 23:51:45.765 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+07-Jun-2019 23:52:00.355 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jun-2019 23:52:00.355 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:52:00.363 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:52:00.369 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2019 23:52:00.388 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:52:00.390 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:52:00.390 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:52:00.390 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:52:53.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.41
+07-Jun-2019 23:52:53.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2019 09:17:16 UTC
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.41.0
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.5
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:52:53.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:52:53.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/conf/logging.properties
+07-Jun-2019 23:52:53.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2019 23:52:53.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2019 23:52:53.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2019 23:52:53.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jun-2019 23:52:53.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2019 23:52:53.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:52:53.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41
+07-Jun-2019 23:52:53.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/temp
+07-Jun-2019 23:52:53.159 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/alexandrmyagkiy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Jun-2019 23:52:53.243 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:52:53.255 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 23:52:53.262 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:52:53.263 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jun-2019 23:52:53.263 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 332 ms
+07-Jun-2019 23:52:53.283 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2019 23:52:53.283 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.41
+07-Jun-2019 23:52:53.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:52:53.658 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:52:53.695 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2019 23:52:53.700 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/FICT] startup failed due to previous errors
+07-Jun-2019 23:52:53.705 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [402] ms
+07-Jun-2019 23:52:53.706 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war]
+07-Jun-2019 23:52:53.900 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:52:53.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/MongoDBWebapp.war] has finished in [279] ms
+07-Jun-2019 23:52:53.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs]
+07-Jun-2019 23:52:54.033 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:52:54.034 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/docs] has finished in [48] ms
+07-Jun-2019 23:52:54.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager]
+07-Jun-2019 23:52:54.078 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:52:54.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/manager] has finished in [109] ms
+07-Jun-2019 23:52:54.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples]
+07-Jun-2019 23:52:54.250 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:52:54.257 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/examples] has finished in [113] ms
+07-Jun-2019 23:52:54.257 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT]
+07-Jun-2019 23:52:54.288 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:52:54.289 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/ROOT] has finished in [32] ms
+07-Jun-2019 23:52:54.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager]
+07-Jun-2019 23:52:54.333 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:52:54.338 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/host-manager] has finished in [48] ms
+07-Jun-2019 23:52:54.345 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:52:54.352 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:52:54.354 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1090 ms
+07-Jun-2019 23:53:05.034 INFO [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FICT]] after stop() had already been called. The second call will be ignored.
+07-Jun-2019 23:53:05.541 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FICT]
+07-Jun-2019 23:53:10.791 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war]
+07-Jun-2019 23:53:10.939 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2019 23:53:11.060 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/alexandrmyagkiy/Desktop/MishaLab/Laba25/apache-tomcat-8.5.41/webapps/FICT.war] has finished in [269] ms
+07-Jun-2019 23:57:07.561 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:57:07.564 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:57:07.571 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2019 23:57:07.586 WARNING [localhost-startStop-2] com.mongodb.util.management.jmx.JMXMBeanServer.unregisterMBean Unable to register MBean org.mongodb.driver:type=ConnectionPool,clusterId=1,host=localhost,port=27017
+	javax.management.InstanceNotFoundException: org.mongodb.driver:type=ConnectionPool,clusterId=1,host=localhost,port=27017
+		at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1095)
+		at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.exclusiveUnregisterMBean(DefaultMBeanServerInterceptor.java:427)
+		at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.unregisterMBean(DefaultMBeanServerInterceptor.java:415)
+		at com.sun.jmx.mbeanserver.JmxMBeanServer.unregisterMBean(JmxMBeanServer.java:546)
+		at com.mongodb.util.management.jmx.JMXMBeanServer.unregisterMBean(JMXMBeanServer.java:52)
+		at com.mongodb.JMXConnectionPoolListener.connectionPoolClosed(JMXConnectionPoolListener.java:68)
+		at com.mongodb.PooledConnectionProvider.close(PooledConnectionProvider.java:107)
+		at com.mongodb.DefaultServer.close(DefaultServer.java:85)
+		at com.mongodb.SingleServerCluster.close(SingleServerCluster.java:95)
+		at com.mongodb.DBTCPConnector.close(DBTCPConnector.java:595)
+		at com.mongodb.Mongo.close(Mongo.java:507)
+		at config.MongoDBContextListener.contextDestroyed(MongoDBContextListener.java:16)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4817)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1439)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+07-Jun-2019 23:57:07.600 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:57:07.602 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Jun-2019 23:57:07.603 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2019 23:57:07.604 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
